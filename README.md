@@ -448,3 +448,134 @@ Day 451–480 → Final Polishing & Deployment
 * Day 463–465: Deploy app on Render/Heroku.
 * Day 466–480: Final testing, bug fixes, documentation, tutorials.
 
+
+📱 Features of NEPSE Stock App
+
+1. Stock Search & Company Info
+	•	What it does: User can search any stock listed in NEPSE (e.g., NABIL, NICA, NRIC).
+	•	Data shown:
+	•	Company full name
+	•	Sector (bank, insurance, hydro, etc.)
+	•	Market capitalization
+	•	Listing date
+	•	Paid-up capital
+	•	Why: Helps investors get context before trading.
+
+⸻
+
+2. Live Market Data
+	•	What it does: Shows real-time stock prices (or latest available NEPSE data).
+	•	Data shown:
+	•	Current price
+	•	Change (points & %)
+	•	Volume traded
+	•	Open, High, Low, Close prices
+	•	Why: Crucial for quick decision-making.
+
+⸻
+
+3. Historical Stock Data & Charts 📊
+	•	What it does: Fetches historical stock prices.
+	•	Visualization: Interactive charts (using Plotly/Matplotlib).
+	•	Line chart → price trend over time
+	•	Candlestick chart → trading patterns
+	•	Volume bars → daily transactions
+	•	Why: Investors analyze patterns before making decisions.
+
+⸻
+
+4. Technical Indicators 📈
+
+Add common technical analysis tools:
+	•	Moving Average (MA, SMA, EMA)
+	•	Relative Strength Index (RSI)
+	•	Bollinger Bands
+	•	MACD (trend & momentum)
+	•	Volume indicators
+
+👉 These indicators help traders know when to buy/sell/hold.
+
+⸻
+
+5. Predictions with Deep Learning 🤖
+	•	What it does: Uses LSTM (Long Short-Term Memory) or GRU (RNN models) to predict future stock prices.
+	•	Features used for training:
+	•	Historical closing price
+	•	Trading volume
+	•	Moving averages
+	•	External factors (if added)
+	•	Output:
+	•	Tomorrow’s predicted closing price
+	•	Trend (up, down, stable)
+	•	Why: Adds value for investors who want AI-based insights.
+
+⸻
+
+6. Portfolio Tracker 💼
+	•	What it does: Users can “add” stocks they hold (like a watchlist).
+	•	Features:
+	•	Track real-time profit/loss
+	•	Show portfolio growth in chart
+	•	Why: Helps users see their investments in one place.
+
+⸻
+
+7. News & Sentiment Analysis 📰
+	•	What it does: Collects Nepali financial news & runs NLP sentiment analysis.
+	•	Output:
+	•	Positive / Negative / Neutral market mood
+	•	Company-specific news
+	•	Why: Stock prices often move with news sentiment.
+
+⸻
+
+8. Sector-wise Market View 🏦
+	•	What it does:
+	•	Breaks down NEPSE by sector (banks, hydropower, insurance, hotels, etc.).
+	•	Shows best & worst performing sectors.
+	•	Visualization: Heatmaps / bar charts.
+	•	Why: Investors can see where money is flowing.
+
+⸻
+
+9. Smart Alerts & Notifications 🔔
+	•	What it does: User sets rules:
+	•	“Alert me when NABIL > Rs. 1,000”
+	•	“Alert when RSI < 30 (oversold)”
+	•	Why: Keeps traders updated without checking app every second.
+
+⸻
+
+10. Educational Mode 🎓 (Optional)
+	•	Tutorials on:
+	•	Basics of stock trading
+	•	Technical indicators explained
+	•	How to use predictions properly
+	•	Why: Helps beginners in Nepal enter stock market confidently.
+
+Chatbot
+
+
+
+⸻
+
+⚙️ Tech Stack
+	•	Backend: Python (FastAPI/Flask) + nepse-api
+	•	Frontend: Streamlit (easy & fast for you)
+	•	AI/ML: TensorFlow / PyTorch (for LSTM model)
+	•	Database: SQLite (simple) or PostgreSQL
+	•	Visualization: Plotly / Matplotlib
+
+⸻
+
+🚀 Suggested Flow of the App
+	1.	User opens app → Sees Dashboard (Market Index, Top Gainers, Top Losers).
+	2.	Search a stock → Gets Company info + Chart + Prediction.
+	3.	Add to Portfolio → Track gains/losses.
+	4.	Open News tab → See latest news & sentiment.
+	5.	Use AI Prediction tab → Get tomorrow’s trend.
+	6.	Set Alerts → Get notified when price moves.
+
+
+
+
