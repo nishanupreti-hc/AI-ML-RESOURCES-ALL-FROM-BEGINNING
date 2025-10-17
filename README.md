@@ -1,4 +1,19 @@
+After 100+ hours of trial, error, and breakdowns
+These 9 courses are what you need to understand Machine Learning:
+-from beginner-friendly resources to advanced, that helped me personally understand core ML concepts, math, and implementation.
 
+1. ML playlist by Vizuara : https://lnkd.in/dPxG5JQr
+2. ML Specialization on coursera by DeepLearning taught by Andrew Ng : https://lnkd.in/drAbriW7
+3. ML CS229 by Stanford Online : https://lnkd.in/d_7nyvaF
+4. ML by MIT OpenCourseWare : https://lnkd.in/dyGEyKfb
+5. ML by Tatev Aslanyan : https://lnkd.in/d6TPi2Z2
+6. ML Specialization on coursera by IBM : https://lnkd.in/dVu3X5z9
+7. ML by Sebastian Raschka, PhD : https://lnkd.in/dAEMMv-j
+8. ML tutorials by Krish Naik, iNeuron.ai : https://lnkd.in/dmPJxSNx
+9. ML playlist by over Stat quest with josh starmer by Joshua Starmer PhD : https://lnkd.in/dbtQrhRx
+
+Repost to help someone ♻️ 
+& follow for everything related to AI Agents
 
 This repository contains free resources and a roadmap to learn Machine Learning and Artificial Intelligence in 2025.
 
